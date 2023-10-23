@@ -1,0 +1,83 @@
+High availablity is core to the cloud 
+You dont own the hardware 
+you add more servers with a click
+if hardware fails, replace it instantly
+use clustures to ensure high availability
+
+Reliability
+Resilience - The ability of a system to recover from failures to continue to function
+
+Deploy in multiple locations - 
+Global scale computing
+protects against reginal failure 
+
+No single point of failure - 
+resources in multiple locations
+if one computer goes down, others pick up the load 
+
+scalability 
+automatically ajust resources to meet demand 
+
+Horizontal scaling - addining addditinal VM's/containers (Scaling out)
+Vertical scaling - Incresing power of existing vm's (scaling up)
+
+Predictability
+Predictable performance and cost 
+Performance - Consistent  experib=nce for customers regardless of traffic
+autoscaling, load balancing and high availability provide a consistent experience
+
+Costs
+No unexpected surprises
+Tranch and forescast resource usage(costs) in real time 
+We can use analytical tools to check cloud costs 
+
+Security 
+Full control of security of your cloud environment
+
+Governence
+Standardized encironments, Audit for compliance
+
+Manageability
+Management of cloud - Autoscaling, Monitoring, Template-based deployments
+
+Management in the cloud - Portal, CLI, API's
+
+High availability means systems are always available - even automatically 
+Reliabilty describes how azure can tolerate failures
+
+The Economy of Cloud Computing 
+capital and operational expenditure - Capex is money spent by a business or organization on acquiring or maintaining fixed assests, such as land, buildings and equipment
+
+Operational expenditure 
+An ongoing cost for running a product, business or system on a day to day basis including annual costs 
+
+*Cloud Service models*
+- Infrastructure as a service(IaaS)
+infrastructure= actual servers 
+Scaling is fast 
+No ownership of Hardware 
+
+- Platform as a service(PaaS)
+Paas supports web applications life cycle 
+Avoid software licenece 
+For example - Middleware, Tools 
+
+- Software as a service 
+Providing a managed service 
+pay a fees 
+No maintainence 
+For examples -applications  
+
+- Serverless(Extreme PaaS)
+you dont have to manage any servers 
+Azure functions is the best known  serverless service 
+
+![Alt text](cloudmodels.png)
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Cloud shell is an interactive, browser- accesible shell for managing Azure Resources 
+
+Azure cloud shell
+Cli commands - 
+az group list - This will show all the resource groups of your subscription
+
+To create vm 
+az vm create `
+--resource-group "<RG_NAME>" `
+--name LabVM `
+--image debian11 `
+--size Standard_B1ms `
+--admin-username azureuser `
+--generate-ssh-keys `
+--public-ip-sku Standard
+
+To Remove a VM using Powershell
+Remove-AzVM -Name "<name>" -ResourceGroupName "<RG_NAME>"
+
+ARM Templates
+Arm templates are used to manage resources 
+
